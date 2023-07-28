@@ -1,0 +1,18 @@
+{
+  "name": "module-1-assignment-srijon-ashraf-zim",
+  "version": "1.0.0",
+  "description": "Module-1 Assignment",
+  "main": "Topic-1.js",
+  "scripts": {
+    "t1": "nodemon Topic-1.js",
+    "t2": "nodemon Topic-2.js",
+    "t3": "nodemon Topic-3.js",
+    "t4": "nodemon Topic-4.js"
+  },
+  "keywords": [],
+  "author": "Srijon Ashraf Zim - MERN (4)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
