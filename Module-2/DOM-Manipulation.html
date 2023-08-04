@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>DOM Manipulation</title>
+</head>
+
+<body>
+    <div id="container" class="d-flex flex-column align-items-center my-2">
+        <img src="https://cdn.pixabay.com/photo/2023/07/27/13/37/cottage-8153413_1280.jpg" height="300" width="auto"
+            alt="">
+    </div>
+
+    <div class="button d-flex flex-column align-items-center">
+        <button class="btn btn-warning d-flex flex-column align-items-center">Change!</button>
+    </div>
+
+
+    <script>
+        const container = document.getElementById('container');
+        const button = document.querySelector('button');
+        const imgId = document.querySelector('#imageId')
+        button.addEventListener('click', function ManipulateDiv () {
+            container.children[0].src = 'https://source.unsplash.com/random';
+            alert('Image Changed!');
+        })
+    </script>
+</body>
+
+
+</html>
