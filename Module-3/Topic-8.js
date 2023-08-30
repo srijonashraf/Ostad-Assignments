@@ -1,3 +1,9 @@
+const readline = require('readline');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 class Person {
     constructor(name, age) {
         this.name = name;
@@ -20,8 +26,15 @@ class Student extends Person {
     }
 }
 
-const person1 = new Person("John", 30);
-person1.introduce();
+rl.question("Enter your name: ", function (name) {
+    rl.question("Enter your age: ", function (age) {
+        const person1 = new Person(name, age);
+        person1.introduce();
 
-const student1 = new Student("Alice", 20, "Computer Science");
-student1.introduce(); 
+        rl.question("Enter your major: ", function (major) {
+            const student1 = new Student(name, age, major);
+            student1.introduce();
+            rl.close();
+        });
+    });
+});
