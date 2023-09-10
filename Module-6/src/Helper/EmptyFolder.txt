@@ -1,1 +1,1 @@
-Created this file beacuse git is not accepting empty folder to push.
+Created this file because git is not accepting empty folder to push.
