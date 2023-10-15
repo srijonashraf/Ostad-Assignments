@@ -71,7 +71,7 @@ exports.login=async (req,res)=>{
                 exp:Math.floor(Date.now()/1000)+(24*60*60),
                 data:reqBody['email']
             }
-            let token=jwt.sign(Payload,"SecretKey123456789");
+            let token=jwt.sign(Payload,"ABC-123");
             res.status(200).json({status:"success",data:token})
 
         }
@@ -93,7 +93,6 @@ exports.RecoverVerifyEmail=async (req,res)=>{
 
     let result= await StudentsModel.find({email:email}).count();
     if(result===1){
-        // Verification Email
        await SendEmailUtility(email,EmailText,EmailSubject);
        await OTPModel.create({email:email,otp:OTPCode})
        res.status(200).json({status:"success",data:"6 Digit Verification Code has been send"})
@@ -115,7 +114,6 @@ exports.RecoverVerifyOTP=async (req,res)=>{
     let statusUpdate=1;
 
     let result= await OTPModel.find({email:email,otp:OTPCode,status:status}).count();
-    // Time Validation 2 min
     if(result===1){
         await OTPModel.updateOne({email:email,otp:OTPCode,status:status}, {status:statusUpdate})
         res.status(200).json({status:"success",data:"Verification Completed"})

@@ -6,7 +6,7 @@ const AuthVerifyMiddleware=require("../middleware/AuthVerifyMiddleware");
 
 const router =express.Router();
 
-// User Manage
+// Student
 router.post("/registration",StudentController.registration);
 router.post("/login",StudentController.login);
 
@@ -18,7 +18,7 @@ router.get("/RecoverVerifyOTP/:email/:otp",StudentController.RecoverVerifyOTP);
 router.post("/RecoverResetPass",StudentController.RecoverResetPass);
 
 
-// Task Manage
+// Work
 router.post("/createWork",WorksController.createWork);
 router.get("/updateWorkStatus/:id/:status",AuthVerifyMiddleware,WorksController.updateWorkStatus);
 router.get("/listWorkByStatus/:status",AuthVerifyMiddleware,WorksController.listWorkByStatus);
