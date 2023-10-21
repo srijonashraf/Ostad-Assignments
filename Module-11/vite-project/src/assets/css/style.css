@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+nav {
+  background-color: black;
+  color: orange;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navlinks {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlinks ul {
+  list-style: none;
+}
+
+.navlinks ul a {
+  text-decoration: none;
+  color: orange;
+}
+
+.navlinks ul a:hover {
+  cursor: pointer;
+  color: aqua;
+}
+
+footer {
+  background-color: black;
+  color: orange;
+}
+
+.logout-button {
+  background-color: red;
+  color: white;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+}
+
