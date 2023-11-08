@@ -1,0 +1,43 @@
+.nav{
+    background-color: black;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav ul li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.home form input{
+    padding: 10px;
+    margin: 10px;
+}
+
+.home form button{
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
