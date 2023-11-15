@@ -3,7 +3,7 @@ import banner from '../../../assets/home/banner.png'
 import logo from '../../../assets/home/logos_google.svg'
 import logo1 from '../../../assets/home/Trello-logo-blue 1.png'
 import logo2 from '../../../assets/home/Notion.png'
-import logo3 from '../../../assets/home/Notion.png'
+import logo3 from '../../../assets/home/logos_monday.png'
 import logo4 from '../../../assets/home/Slack.png'
 
 const Banner = () => {
@@ -20,8 +20,8 @@ const Banner = () => {
             <div className='py-12 bg-white flex flex-nowrap justify-between items-center px-[4vw] h-content lg:h-12 md:h-12 absolute w-full bottom-10'>
                 <div><img src={logo} alt="" className='w-24 lg:w-full md:w-full'/></div>
                 <div><img src={logo1} alt="" className='w-24 lg:w-full md:w-full'/></div>
-                <div><img src={logo2} alt="" className='w-24 lg:w-full md:w-full'/></div>
                 <div><img src={logo3} alt="" className='w-24 lg:w-full md:w-full'/></div>
+                <div><img src={logo2} alt="" className='w-24 lg:w-full md:w-full'/></div>
                 <div><img src={logo4} alt="" className='w-24 lg:w-full md:w-full'/></div>
             </div>
         </div>
