@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
         <aside className="max-w-[320px] text-lg">
-          <p>Copyright Design Agency 2022</p>
+          <p>Copyright Design Agency {new Date().getFullYear()}</p>
         </aside>
       </nav>
       <nav>
