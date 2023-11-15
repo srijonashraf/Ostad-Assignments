@@ -1,0 +1,28 @@
+
+[
+    {
+      "id": 1,
+      "icon": "https://i.ibb.co/k1PFykh/Group-3.png",
+      "total": 240452,
+      "title": "Followers"
+    },
+    {
+      "id": 2,
+      "icon": "https://i.ibb.co/30gFRcB/Like.png",
+      "total": 6300,
+      "title": "Solved Problems"
+    },
+    {
+      "id": 3,
+      "icon": "https://i.ibb.co/3pxC9h4/Happy-1.png",
+      "total": 25000,
+      "title": "Happy Customers"
+    },
+    {
+      "id": 4,
+      "icon": "https://i.ibb.co/gj9pCL8/Scan-3.png",
+      "total": 360452,
+      "title": "Projects"
+    }
+  ]
+  

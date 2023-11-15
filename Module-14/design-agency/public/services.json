@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title": "Build & Launch without problems",
+        "description": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+        "images": {
+            "image1": "https://i.ibb.co/kqp2j5w/Rectangle-2095.png",
+            "image2": "https://i.ibb.co/HP285Qp/Rectangle-2096.png",
+            "image3": "https://i.ibb.co/MyTTTfy/Rectangle-2097.png",
+            "image4": "https://i.ibb.co/56RYXxK/Rectangle-2098.png"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Build & Launch without problems",
+        "description": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+        "images": {
+            "image1": "https://i.ibb.co/Y7SX8w5/Rectangle-2095-1.png",
+            "image2": "https://i.ibb.co/Z85kMNW/Rectangle-2096-1.png",
+            "image3": "https://i.ibb.co/jTrxBTc/Rectangle-2097-1.png",
+            "image4": "https://i.ibb.co/LYXnNN8/Rectangle-2098-1.png"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Build & Launch without problems",
+        "description": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+        "images": {
+            "image1": "https://i.ibb.co/LnzpnsG/Rectangle-2095-2.png",
+            "image2": "https://i.ibb.co/C77VXP1/Rectangle-2096-2.png",
+            "image3": "https://i.ibb.co/BfTn5rJ/Rectangle-2097-2.png",
+            "image4": "https://i.ibb.co/PgDHtLd/Rectangle-2098-2.png"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Build & Launch without problems",
+        "description": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+        "images": {
+            "image1": "https://i.ibb.co/mSVYkRT/Rectangle-2095-3.png",
+            "image2": "https://i.ibb.co/Z85kMNW/Rectangle-2096-1.png",
+            "image3": "https://i.ibb.co/Df3HzPD/Rectangle-2097-3.png",
+            "image4": "https://i.ibb.co/S5nLGFd/Rectangle-2098-3.png"
+        }
+    }
+]

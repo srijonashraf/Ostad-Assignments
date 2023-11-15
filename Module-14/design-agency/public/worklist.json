@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "icon": "https://i.ibb.co/2KhdVSJ/Activity.png",
+        "title": "Grow Your BusinessProject Alpha",
+        "description": "We help identify the best ways to improve your business"
+    },
+    {
+        "id": 2,
+        "icon": "https://i.ibb.co/QD7Vp0V/Heart.png",
+        "title": "Improve brand loyalty",
+        "description": "We help identify the best ways to improve your business"
+    },
+    {
+        "id": 3,
+        "icon": "https://i.ibb.co/2KhdVSJ/Activity.pnghttps://i.ibb.co/hZdQhyQ/Work.png",
+        "title": "Improve Business Model",
+        "description": "We help identify the best ways to improve your business"
+    }
+]
