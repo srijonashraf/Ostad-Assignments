@@ -19,7 +19,7 @@ const Navbar = () => {
         <Link to="/projects">Projects</Link>
         <Link to="/testimonials">Testimonials</Link>
         <Link to="/">
-          <button className="btn btn-outline border border-success text-black hover:bg-success w-20 h-10">
+          <button className="btn btn-outline border border-success text-black hover:bg-success hover:text-white hover:border-none w-20 h-10">
             Login
           </button>
         </Link>

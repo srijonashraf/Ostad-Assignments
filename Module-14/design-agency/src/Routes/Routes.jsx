@@ -6,6 +6,7 @@ import Team from '../Pages/Team/Team';
 import Service from '../Pages/Service/Service';
 import Projects from '../Pages/Projects/Projects';
 import Testimonials from '../Pages/Testimonials/Testimonials';
+import Error from '../Pages/Error/Error';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: '/testimonials',
         element: <Testimonials></Testimonials>
+      },
+      {
+        path: '*',
+        element: <Error></Error>
       }
     ]
   },
