@@ -21,3 +21,17 @@ exports.createProduct = async (req, res) => {
     res.status(500).json({ status: "fail", data: e.message });
   }
 };
+
+exports.findAll = async (req, res) => {
+  try {
+    let result = await ProductModel.find();
+
+    if (result) {
+      res.status(200).json({ status: "success", data: result });
+    } else {
+      res.status(200).json({ status: "success", message: "No result found" });
+    }
+  } catch (error) {
+    res.status(500).json({ status: "fail", error: error.message });
+  }
+};
