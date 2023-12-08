@@ -58,21 +58,43 @@ const SavePage = () => {
   const Save = async (e) => {
     e.preventDefault();
 
-    if (updateId === null) {
-      const res = await registration(fromValue);
-      if (res) {
-        toast.success("Request Complete");
-        navigate("/");
-      } else {
-        toast.success("Request Failed");
-      }
+    // Check for empty fields
+    const requiredFields = [
+      "firstName",
+      "lastName",
+      "email",
+      "phone",
+      "gender",
+      "dateOfBirth",
+      "address",
+      "admissionDate",
+      "courses",
+      "nationality",
+    ];
+    const emptyFields = requiredFields.filter(
+      (field) => !fromValue[field].trim()
+    );
+
+    if (emptyFields.length > 0) {
+      // Display error toast for empty fields
+      toast.error(`Please fill all the fields`);
     } else {
-      const res = await StudentUpdate(fromValue, updateId);
-      if (res) {
-        toast.success("Update Complete");
-        navigate("/");
+      if (updateId === null) {
+        const res = await registration(fromValue);
+        if (res) {
+          toast.success("Request Complete");
+          navigate("/");
+        } else {
+          toast.error("Request Failed");
+        }
       } else {
-        toast.success("Request Failed");
+        const res = await StudentUpdate(fromValue, updateId);
+        if (res) {
+          toast.success("Update Complete");
+          navigate("/");
+        } else {
+          toast.error("Request Failed");
+        }
       }
     }
   };
