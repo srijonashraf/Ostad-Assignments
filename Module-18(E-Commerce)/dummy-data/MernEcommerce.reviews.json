@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "65740be53527bb00fce9c38d"
+  },
+  "productID": {
+    "$oid": "64f87d60502e1b80556da15a"
+  },
+  "userID": {
+    "$oid": "64f865337f12bc50f718d79a"
+  },
+  "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+  "rating": "5",
+  "updatedAt": {
+    "$date": "2023-09-06T16:55:10.499Z"
+  },
+  "createdAt": {
+    "$date": "2023-09-06T16:54:17.469Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65740be53527bb00fce9c38e"
+  },
+  "productID": {
+    "$oid": "64f87d60502e1b80556da15a"
+  },
+  "userID": {
+    "$oid": "64f865337f12bc50f718d79a"
+  },
+  "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+  "rating": "5",
+  "updatedAt": {
+    "$date": "2023-09-06T16:55:10.499Z"
+  },
+  "createdAt": {
+    "$date": "2023-09-06T16:54:17.469Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65740be53527bb00fce9c38f"
+  },
+  "productID": {
+    "$oid": "64f87d60502e1b80556da15a"
+  },
+  "userID": {
+    "$oid": "64f865337f12bc50f718d79a"
+  },
+  "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+  "rating": "5",
+  "updatedAt": {
+    "$date": "2023-09-06T16:55:10.499Z"
+  },
+  "createdAt": {
+    "$date": "2023-09-06T16:54:17.469Z"
+  }
+}]
