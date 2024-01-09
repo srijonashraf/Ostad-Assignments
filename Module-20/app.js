@@ -20,14 +20,10 @@ app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb" }));
 app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 3000 }));
 
-let URL = `mongodb://localhost:27017/SalesReport`;
-
-try {
-  mongoose.connect(URL);
-  console.log("DB Connected!");
-} catch (err) {
-  console.error(err);
-}
+mongoose.connect("mongodb://127.0.0.1:27017/SalesReport", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 const router = require("./src/routes/api");
 app.use("/api/v1", router);
