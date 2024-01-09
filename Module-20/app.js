@@ -21,14 +21,9 @@ app.use(express.urlencoded({ limit: "50mb" }));
 app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 3000 }));
 
 let URL = `mongodb://localhost:27017/SalesReport`;
-let CONFIG = {
-  user: "",
-  pass: "",
-  autoIndex: true,
-};
 
 try {
-  mongoose.connect(URL, CONFIG);
+  mongoose.connect(URL);
   console.log("DB Connected!");
 } catch (err) {
   console.error(err);
