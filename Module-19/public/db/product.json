@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Modern Smart Phone",
+    "category": "Accessories",
+    "price": "38.50",
+    "discount": false,
+    "discountedPrice": "0",
+    "image": "https://i.postimg.cc/zX1hDnmj/1.webp"
+  },
+  {
+    "name": "Bluetooth Headphone",
+    "category": "Accessories",
+    "price": "48.50",
+    "discount": true,
+    "discountedPrice": "38.50",
+    "image": "https://i.postimg.cc/JzrBZMzH/2.webp"
+  },
+  {
+    "name": "Smart Music Box",
+    "category": "Accessories",
+    "price": "50.00",
+    "discount": false,
+    "discountedPrice": "0",
+    "image": "https://i.postimg.cc/Bvy8rFc2/7.webp"
+  },
+  {
+    "name": "Air Pods Pro Black",
+    "category": "Accessories",
+    "price": "38.50",
+    "discount": false,
+    "discountedPrice": "0",
+    "image": "https://i.postimg.cc/tRhh0r1k/airpod-gray.webp"
+  },
+  {
+    "name": "Smart Hand Watch",
+    "category": "Accessories",
+    "price": "38.50",
+    "discount": false,
+    "discountedPrice": "0",
+    "image": "https://i.postimg.cc/FRLfNKD8/3.webp"
+  },
+  {
+    "name": "Smart Table Camera",
+    "category": "Accessories",
+    "price": "138.50",
+    "discount": true,
+    "discountedPrice": "112.50",
+    "image": "https://i.postimg.cc/6qVy4msh/6.webp"
+  },
+  {
+    "name": "Round Pocket Router",
+    "category": "Accessories",
+    "price": "38.50",
+    "discount": false,
+    "discountedPrice": "0",
+    "image": "https://i.postimg.cc/Bvy8rFc2/7.webp"
+  },
+  {
+    "name": "Power Bank 1000Mhp",
+    "category": "Accessories",
+    "price": "260.00",
+    "discount": false,
+    "discountedPrice": "238.50",
+    "image": "https://i.postimg.cc/Nf7HK5Bw/8.webp"
+  }
+]
